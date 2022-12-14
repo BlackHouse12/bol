@@ -13,7 +13,10 @@
     <style>
         body{
             font-family: arial, helvetica, sans-serif;
-            background: rgb(112, 14, 14);
+            background-image: url(capa.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: black;
         }
         div{
             background-color: rgba(0,0,0, 0.9);
@@ -83,9 +86,15 @@
         <h1> Cadastro </h1>
         <input type="text" placeholder="Nome">
         <br><br>
-        <input type="passoword" placeholder="Senha">
-        <br><br>
         <input type="Email" placeholder="Email">
+        <br><br>
+        <input type="telephone" placeholder="Telefone">
+        <br><br>
+        <input type="number" placeholder="Cpf">
+        <br><br>
+        <input type="passoword" placeholder="Confirmar senha">
+        <br><br>
+        <input type="passoword" placeholder="Senha">
         <br><br>
         <a href="index.html"><button>Cadastra</button></a>
 
